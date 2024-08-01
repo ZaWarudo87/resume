@@ -1,0 +1,239 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,10pt]{extarticle}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=blue,
+]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontspec}   %加這個就可以設定字體
+\usepackage{xeCJK}       %讓中英文字體分開設置
+
+\setCJKmainfont{Noto Serif TC}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\definecolor{highlight}{RGB}{0, 91, 114}
+
+% Adjust margins
+
+
+\addtolength{\textwidth}{1in}
+
+
+\addtolength{\textheight}{1in}
+
+\usepackage[
+top=1cm,
+bottom=0.75cm,
+left=1cm,
+right=1.25cm,
+]{geometry} 
+
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Huge Katrina (Tsui-Yi) Hung}} \\
+  Email: \href{mailto:hong.tsui.yi@gmail.com}{\underline{hong.tsui.yi@gmail.com}} & Github: \href{https://github.com/ZaWarudo87}{\underline{https://github.com/ZaWarudo87}} \\
+  Mobile: +886-918-800-719 & Website: \href{https://zawarudo87.github.io/my_portfolio}{\underline{https://zawarudo87.github.io/my\_portfolio}} \\
+  Linkedin: \href{www.linkedin.com/in/katrina20050719}{\underline{www.linkedin.com/in/katrina20050719}} & C++, Python, JavaScript, PHP \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Yang Ming Chiao Tung University}{Sep. 2023 - Jun. 2027 (expected)}
+      {}{Hsinchu, Taiwan}
+      Relevant Course Grades: 
+      \vspace{-0.5em}
+	\begin{itemize}
+	    \item Introduction to Computers and Programming - A+
+	    \item Object-Oriented Programming - A+
+	    \item Basic Programming - A+
+	    \item Competitive Programming(I) - A-
+	    \item Linear Algebra - A+
+	\end{itemize}
+    \resumeSubHeadingListEnd
+
+\vspace{0.1em}
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+C++ | Python | HTML | CSS | JavaScript | Node.js | PHP | MySQL | Linux | Arduino | Raspberry PI
+    \resumeSubHeadingListEnd
+
+\vspace{0.1em}
+%-----------LEADERSHIP & ACTIVITIES-----------------
+\section{Leadership \& Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NYCU Makereal Labs (Maker Club)}{Feb. 2024 - Present}
+      {9th \textcolor{highlight}{Executive} - \textcolor{highlight}{Teaching} and Artistic Design}{}
+	\begin{itemize}
+	    \item \textcolor{highlight}{Develop projects and teach} production methods and programming in community courses.
+	    \item \textcolor{highlight}{Collaborate with teaching staff} to create projects and courses for maker camps and workshops, including competitive elements for participants.
+	    \item Design the club mascot, promotional materials, and so on; utilize \textcolor{highlight}{electronics} and modeling knowledge for club souvenirs.
+	    \item Represent the club and school in \textcolor{highlight}{makerthons} together.
+	\end{itemize}
+
+    \resumeSubheading
+      {2024 NYCU Maker’s Summer Camp}{Apr. 2024 - Jul. 2024}
+      {\textcolor{highlight}{Director} - \textcolor{highlight}{Courses} and Artistic Design}{}
+	\begin{itemize}
+	    \item Served as a \textcolor{highlight}{C++ program director} and project ideation instructor; \textcolor{highlight}{prepared syllabus and guide staff}; 86\% of participants were satisfied with this course.
+	    \item Be a \textcolor{highlight}{teaching assistant} and group counselor, helping team cohesion, curriculum progress, problem-solving, and makerthon participation.
+	\end{itemize}
+
+    \resumeSubheading
+      {2024 NYCU × CPSHS JavaScript Workshop}{May 2024 - Jul. 2024}
+      {Staff Member - Artistic Design \& Teaching Assistant}{}
+	\begin{itemize}
+	    \item Designed event posters.
+	    \item Assisted students with questions and ensured they kept up with the course progress.
+	    \item Provided lesson preparation suggestions to the instructor.
+	\end{itemize}
+
+    \resumeSubheading
+      {2024 NYCU Management Science Leadership Camp (Mansion of Savior)}{Feb. 2024 - Jul. 2024}
+      {Staff Member - Artistic Design \& Internet Publicity Department}{}
+	\begin{itemize}
+	    \item Designed event avatars and created props needed for camp activities.
+	    \item Assisted group counselors in managing team members and prepared performances and game activities with other staff members.
+	\end{itemize}
+
+    \resumeSubheading
+      {2024 NYCU Maker’s Winter Camp}{Nov. 2023 - Jan. 2024}
+      {Staff Member - \textcolor{highlight}{C++ Program Instructor}}{}
+	\begin{itemize}
+	    \item \textcolor{highlight}{Coordinated} C++ instructors’ syllabus, scope, and duration in class; \textcolor{highlight}{prepared and taught C++ courses}; 95\% of participants were satisfied with this course.
+	    \item Acted as a teaching assistant and group counselor, ensuring progress and addressing issues.
+	\end{itemize}
+    \resumeSubHeadingListEnd
+
+\vspace{0.1em}
+%-----------AWARDS & PROJECTS-----------------
+\section{Awards \& Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Alcohol Interlock - technical application and performance analysis}{Mar. 2024 - May 2024}
+      {2024 MakeNTU AUO Corporate \textcolor{highlight}{Award Third Place}}{}
+	\begin{itemize}
+	    \item We developed an alcohol interlock that continuously monitors the driver’s alcohol reaction by several indicators during driving.
+	    \item It includes a humorous generative AI virtual assistant aiming to address the flaws and inconveniences of current alcohol interlocks.
+	    \item Alongside four partners, I co-created and competed in a \textcolor{highlight}{makerthon} project. My responsibilities are handling the simulation of the car interface \textcolor{highlight}{webpage} and integrating the \textcolor{highlight}{ChatGPT API} to make our alcohol interlock provide relevant feedback based on backend data.
+	\end{itemize}
+
+\newpage %next page
+    \resumeSubheading
+      {GPE}{March 20, 2024}
+      {Score: 450 / 600; Rank: 4 / 87}{}
+	\begin{itemize}
+	    \item A GPE score of 240 is the graduation threshold for the Department of Computer Science at NYCU. It’s more challenging than the CPE (Collegiate Programming Examination).
+	    \item This is the grading standard for Basic Programming, and I achieved A+.
+	\end{itemize}
+
+    \resumeSubheading
+      {1A2B - The Web Game}{Mar. 2023}
+      {Midterm Project for Information Technology Course}{}
+	\begin{itemize}
+	    \item Developed a website for playing the classic game 1A2B, featuring registration and login to record best scores and join the leaderboard.
+	    \item Built using \textcolor{highlight}{HTML + CSS + JavaScript and PHP}, hosted on WampServer, and stored player data in \textcolor{highlight}{MySQL}.
+	    \item During the class's free viewing period, over 58\% of classmates participated in the 1A2B online ranking battle, with over 70\% playing more than three games.
+	\end{itemize}
+
+    \resumeSubheading
+      {When Dino Hits the Genetic Algorithm}{Jun. 2022}
+      {Final Report for Information Technology Course}{}
+	\begin{itemize}
+	    \item Attempted to crack the Chrome Dino game using the \textcolor{highlight}{Genetic Algorithm}.
+	    \item Utilized \textcolor{highlight}{C++} to cultivate strong genes for 10 generations, each with a gene pool of 100 sets, a 10\% crossover mutation rate, and approximately 1.9 × 10²⁶⁶ possible genes. Integrated the cultivated genes into a modified \textcolor{highlight}{JavaScript} from GitHub to auto-control Dino getting scores and leaving the superior genes.
+	\end{itemize}
+
+    \resumeSubheading
+      {Big Data × Stock Market}{Feb. 2022 - Jun. 2022}
+      {Autonomous Learning Final Presentation Project}{}
+	\begin{itemize}
+	    \item \textcolor{highlight}{Scraped} 20 years of monthly K-line data for FTSE TWSE Taiwan 50 Index components \textcolor{highlight}{using Python}; backtested parameter combinations and created \textcolor{highlight}{analysis charts with Matplotlib} to identify the most profitable strategy.
+	    \item Backtesting with optimal parameters and trading one board lot at a time showed a potential profit of nearly NT\$40,000,000 over 20 years.
+	\end{itemize}
+
+    \resumeSubheading
+      {Coding With Us!}{Mar. 2022}
+      {Project for 2022 \textcolor{highlight}{Google Solution Challenge}}{}
+	\begin{itemize}
+	    \item Developed an Android app with App Inventor for offline \textcolor{highlight}{C++ and Python learning} to support \textcolor{highlight}{SDGs Quality Education}.
+	    \item The app features a cute interface and fun mini-games in each chapter to enhance programming learning enjoyment.
+	    \item \textcolor{highlight}{Co-edited HTML format tutorials}, created the project with three partners and joined Google Solution Challenge as a GDSC TMU Project X member.
+	    \item I was mainly responsible for conveying competition information, \textcolor{highlight}{project coordination, coding, interface and artwork design, app content planning}, and intro video editing.
+	\end{itemize}
+    \resumeSubHeadingListEnd
+\end{document}
